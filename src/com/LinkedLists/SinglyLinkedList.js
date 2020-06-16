@@ -40,6 +40,7 @@ class LinkedList {
         this.tail.next = newNode;
         this.tail = newNode;
         this.length++;
+        return this.printList();
     }
 
     prepend(value) {
@@ -47,9 +48,13 @@ class LinkedList {
         newNode.next = this.head;
         this.head = newNode;
         this.length++;
+        return this.printList();
     }
 
     insert(index, value) {
+        //Check if index is 0
+        if (index === 0)
+            return this.prepend(value);
         //Check if index is greater than length of Linked List
         if (index > this.length)
             return this.append(value);
@@ -59,6 +64,7 @@ class LinkedList {
         preNode.next = newNode;
         newNode.next = postNode;
         this.length++;
+        return this.printList();
     }
 
     remove(index) {
@@ -69,6 +75,7 @@ class LinkedList {
         const unwantedNode = preNode.next;
         preNode.next = unwantedNode.next;
         this.length--;
+        return this.printList();
     }
 
     traverseToIndex(index) {
@@ -79,6 +86,23 @@ class LinkedList {
             counter++;
         }
         return currentNode;
+    }
+    /*1 -> 10 -> 88 -> 16 -> 4*/
+    reverse() {
+        if (!this.head.next)
+            return this.head;
+        let first = this.head;
+        let second = first.next;
+        while (second) {
+            const temp = second.next;
+            second.next = first;
+            first = second;
+            second = temp;
+        }
+        this.head.next = null;
+        this.tail = this.head;
+        this.head = first;
+        return this.printList;
     }
 
     printList() {
@@ -95,26 +119,20 @@ class LinkedList {
 
 //Instantiate LL with head as 10
 const myLinkedList = new LinkedList(10);
-console.log(myLinkedList);
 //Append 5
-myLinkedList.append(5);
-console.log(myLinkedList);
+console.log(myLinkedList.append(5));
 //Append 16
-myLinkedList.append(16);
-console.log(myLinkedList);
+console.log(myLinkedList.append(16));
 //Prepend 1
-myLinkedList.prepend(1);
-console.log(myLinkedList);
+console.log(myLinkedList.prepend(1));
 //Insert 99 at index 200
-myLinkedList.insert(200, 99);
-console.log(myLinkedList);
+console.log(myLinkedList.insert(200, 99));
 //Insert 21 at index 2
-myLinkedList.insert(2, 21);
-console.log(myLinkedList);
-//Print List
-console.log("Linked List: " + myLinkedList.printList());
+console.log(myLinkedList.insert(2, 21));
 //Remove index 3
-myLinkedList.remove(3);
+console.log(myLinkedList.remove(3));
 console.log(myLinkedList);
-//Print List
-console.log("Linked List: " + myLinkedList.printList());
+//Reverse and print LL
+myLinkedList.reverse();
+console.log(myLinkedList.printList());
+console.log(myLinkedList);
