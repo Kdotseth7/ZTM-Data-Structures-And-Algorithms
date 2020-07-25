@@ -5,7 +5,7 @@
 
 //For example: fibonacciRecursive(6) should return 8
 
-function fibonacciIterative(number){
+function fibonacciIterativeApproach1(number){ //O(n)
     let i = 2;
     let a = 0;
     let b = 1;
@@ -22,14 +22,23 @@ function fibonacciIterative(number){
         return c;
     }
 }
-console.log("Fibonacci Iterative: "  + fibonacciIterative(6));
+console.log("Fibonacci Iterative(Approach 1): "  + fibonacciIterativeApproach1(6));
 
-function fibonacciRecursive(number) {
+function fibonacciIterativeApproach2(number){ //O(n)
+    debugger;
+    let array = [0, 1];
+    for (let i=2; i<number+1; i++) {
+        array.push(array[i - 1] + array[i - 2]);
+    }
+    return array[number];
+}
+console.log("Fibonacci Iterative(Approach 2): " + fibonacciIterativeApproach2(6));
+
+function fibonacciRecursive(number) { //O(2^n)
     //Base Case
     if (number < 2)
         return number;
     //Recursive Case
     return fibonacciRecursive(number - 1)  + fibonacciRecursive(number - 2);
 }
-
 console.log("Fibonacci Recursive: " + fibonacciRecursive(6));
