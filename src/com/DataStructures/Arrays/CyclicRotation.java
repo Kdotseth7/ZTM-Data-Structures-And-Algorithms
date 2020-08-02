@@ -1,4 +1,4 @@
-package com.DataStructures.Arrays;
+/*package com.DataStructures.Arrays;
 
 import java.util.Arrays;
 
@@ -21,4 +21,4 @@ public class CyclicRotation {
         }
     }
 
-}
+}*/

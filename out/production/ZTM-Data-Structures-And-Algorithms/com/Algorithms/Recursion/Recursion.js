@@ -5,8 +5,8 @@ const inception = () => {
     //Base Case
     if (counter > 3)
         return "DONE!";
-    //Recursive Case
     counter++;
+    //Recursive Case
     return inception();
 };
 

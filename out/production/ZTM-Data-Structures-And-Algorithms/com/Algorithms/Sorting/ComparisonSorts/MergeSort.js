@@ -1,11 +1,12 @@
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 
-//TC --> O(n log n)
+//TC --> Best Case = Worst Case = O(n log n)
 //SC --> O(n)
 //Link: https://www.youtube.com/watch?v=mB5HXBb_HY8
 /*
 1. Uses divide and conquer technique, i.e., Recursion
-2. Merge Sort is a stable algorithm: https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important
+2. If your'e not worried about Space Complexity, merge sort is best as it has same best and worst case for Time Complexity
+3.. Merge Sort is a stable algorithm: https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important
 */
 
 const mergeSort = array => {

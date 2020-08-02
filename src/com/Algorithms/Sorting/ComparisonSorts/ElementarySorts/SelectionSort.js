@@ -2,7 +2,9 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 
 //TC --> O(n^2)
 //SC --> O(1)
-
+/*
+Not used in industry, only for educational purposes
+*/
 const selectionSort = array => {
     const arrayLength = array.length;
     for (let i=0; i<arrayLength; i++) {
