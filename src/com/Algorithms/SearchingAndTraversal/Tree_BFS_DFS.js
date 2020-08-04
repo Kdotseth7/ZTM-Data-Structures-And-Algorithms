@@ -153,8 +153,16 @@ class BinarySearchTree {
         return list;
     }
 
-    breadthFirstSearchRecursive() {
-        //code
+    breadthFirstSearchRecursive(queue, list) {
+        if(!queue.length)
+            return list;
+        let currentNode = queue.unshift();
+        list.push(currentNode.value);
+        if (currentNode.left)
+            queue.push(currentNode.left);
+        if (currentNode.right)
+            queue.push(currentNode.right);
+        return this.breadthFirstSearchRecursive(queue, list);
     }
 
     depthFirstSearch() {
@@ -183,6 +191,7 @@ myBST.insert(20);
 myBST.insert(15);
 myBST.insert(170);
 console.log("BFS: ", myBST.breadthFirstSearch());
+console.log("BFS Recursive: ", myBST.breadthFirstSearch([myBST.root], []));
 
 
 
