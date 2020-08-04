@@ -1,3 +1,15 @@
+/*
+top = 4, top.next = 2
+bottom = 1
+4
+|
+2
+|
+5
+|
+1
+*/
+
 class Node {
 
     constructor(value) {

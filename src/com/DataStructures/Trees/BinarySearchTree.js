@@ -37,6 +37,7 @@ class BinarySearchTree {
         }
         else {
             let currentNode = this.root;
+            //Whenever we use true in while loop, always have an exit condition otherwise it will be an infinite loop
             while (true) {
                 if (newNode.value < currentNode.value) { //LEFT
                     if (!currentNode.left) {
