@@ -162,11 +162,11 @@ class BinarySearchTree {
         queue.push(currentNode);
         while(queue.length > 0) {
             currentNode = queue.shift(); //Shift removes first item from front of the queue
-            list.push(currentNode.value);
             if (currentNode.left)
                 queue.push(currentNode.left);
             if (currentNode.right)
                 queue.push(currentNode.right);
+            list.push(currentNode.value);
         }
         return list;
     }

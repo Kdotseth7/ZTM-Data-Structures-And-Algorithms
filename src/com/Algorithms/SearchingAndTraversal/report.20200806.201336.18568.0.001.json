@@ -1,0 +1,149 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200806.201336.18568.0.001.json",
+    "dumpEventTime": "2020-08-06T20:13:36Z",
+    "dumpEventTimeStamp": "1596725016329",
+    "processId": 18568,
+    "cwd": "C:\\Users\\ASUS\\Documents\\ZTM-Data-Structures-And-Algorithms\\src\\com\\Algorithms\\SearchingAndTraversal",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ASUS\\Documents\\ZTM-Data-Structures-And-Algorithms\\src\\com\\Algorithms\\SearchingAndTraversal\\Graph_BFS_DFS.js"
+    ],
+    "nodejsVersion": "v13.2.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "13.2.0",
+      "v8": "7.9.317.23-node.20",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.2.0/node-v13.2.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.2.0/node-v13.2.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v13.2.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 9730875,
+        "nice": 0,
+        "sys": 14402390,
+        "idle": 204420000,
+        "irq": 4680093
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5692296,
+        "nice": 0,
+        "sys": 5518765,
+        "idle": 217341906,
+        "irq": 292296
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 10541328,
+        "nice": 0,
+        "sys": 8535312,
+        "idle": 209476328,
+        "irq": 215156
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7093062,
+        "nice": 0,
+        "sys": 5209000,
+        "idle": 216250906,
+        "irq": 195500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 8421515,
+        "nice": 0,
+        "sys": 6836187,
+        "idle": 213295265,
+        "irq": 217421
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 5480687,
+        "nice": 0,
+        "sys": 5801250,
+        "idle": 217271031,
+        "irq": 272500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 8202453,
+        "nice": 0,
+        "sys": 7204609,
+        "idle": 213145859,
+        "irq": 188187
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+        "speed": 2592,
+        "user": 7332015,
+        "nice": 0,
+        "sys": 6578625,
+        "idle": 214642296,
+        "irq": 177031
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.126.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.74.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "aa:db:87:0b:e5:29",
+        "address": "192.168.1.6",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+       
