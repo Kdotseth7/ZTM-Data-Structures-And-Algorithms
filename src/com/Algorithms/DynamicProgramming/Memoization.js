@@ -10,11 +10,12 @@ const addTo80 = n => {
     }
 };
 
-console.log("Uncached: ", addTo80(5));
-console.log("Cached: ", addTo80(5));
+console.log("5-> Uncached: ", addTo80(5));
+console.log("10-> Uncached: ", addTo80(10));
+console.log("5-> Cached: ", addTo80(5));
 
 /*
-But Cache should be part of function so we use closure in JS so
+But Cache should be part of function so we use CLOSURES in JS so
 even if cache is declared inside a function it has a global scope
 */
 
@@ -33,5 +34,6 @@ const memoizedAddTo80 = () => {
 
 const memoized = memoizedAddTo80();
 
-console.log("Memoized Uncached: ", memoized(5));
-console.log("Memoized Cached: ", memoized(5));
+console.log("5-> Memoized Uncached: ", memoized(5));
+console.log("10-> Memoized Uncached: ", memoized(10));
+console.log("5-> Memoized Cached: ", memoized(5));
