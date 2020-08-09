@@ -22,7 +22,7 @@ function fibonacciIterativeApproach1(number){ //O(n)
         return c;
     }
 }
-console.log("Fibonacci Iterative(Approach 1): "  + fibonacciIterativeApproach1(6));
+console.log("Fibonacci Iterative(Approach 1): "  + fibonacciIterativeApproach1(7));
 
 function fibonacciIterativeApproach2(number){ //O(n)
     debugger;
@@ -32,7 +32,7 @@ function fibonacciIterativeApproach2(number){ //O(n)
     }
     return array[number];
 }
-console.log("Fibonacci Iterative(Approach 2): " + fibonacciIterativeApproach2(6));
+console.log("Fibonacci Iterative(Approach 2): " + fibonacciIterativeApproach2(7));
 
 function fibonacciRecursive(number) { //O(2^n)
     //Base Case
@@ -41,4 +41,4 @@ function fibonacciRecursive(number) { //O(2^n)
     //Recursive Case
     return fibonacciRecursive(number - 1)  + fibonacciRecursive(number - 2);
 }
-console.log("Fibonacci Recursive: " + fibonacciRecursive(6));
+console.log("Fibonacci Recursive: " + fibonacciRecursive(7));
