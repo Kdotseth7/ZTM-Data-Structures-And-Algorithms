@@ -13,7 +13,7 @@ console.log(`Fibonacci Recursive -> Sum of first ${number} numbers: ${fibonacci_
 console.log('Fibonacci Recursive Function Calls:', calc1);
 
 // Fibonacci using Dynamic Programming -> Top-Down Approach
-/*TC -> O(2^n)*/
+/*TC -> O(n)*/
 let calc2 = 0;
 const fibonacci_Memoized = () => {
     let cache = {};
@@ -37,7 +37,7 @@ console.log(`Fibonacci Top-Down Memoized -> Sum of first ${number} numbers: ${fa
 console.log('Fibonacci Top-Down Memoized Function Calls:', calc2);
 
 // Fibonacci using Dynamic Programming -> Bottom-Up Approach
-/*TC -> O(2^n)*/
+/*TC -> O(n)*/
 const fibonacciBottomUp = number => {
     let array = [0, 1];
     for (let i=2; i<number+1; i++) {
