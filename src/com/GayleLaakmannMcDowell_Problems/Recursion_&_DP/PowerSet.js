@@ -23,5 +23,17 @@ Output:
  */
 
 const powerSet = function(nums) {
-    //Code
+    return returnAllSubsets(nums, 0, [], []);
 };
+
+function returnAllSubsets(nums, startIndex, subset, list) {
+    if (nums.length === startIndex)
+        list.push(subset);
+    else {
+        returnAllSubsets(nums, startIndex + 1, subset.concat(nums[startIndex]), list);
+        returnAllSubsets(nums, startIndex + 1, subset, list);
+    }
+    return list;
+}
+
+console.log(powerSet([1, 2, 3]));
