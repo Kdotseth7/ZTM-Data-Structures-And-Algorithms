@@ -54,11 +54,13 @@ const generateParenthesis = n => {
 function n_MatchedParentheses(open, close, string, list) {
     if (open === 0 && close === 0)
         list.push(string);
-    if (open > 0)
-        n_MatchedParentheses(open - 1, close, string + '(', list);
-    if (close > 0 && open < close)
-        n_MatchedParentheses(open, close - 1, string + ')', list);
+    else {
+        if (open > 0)
+            n_MatchedParentheses(open - 1, close, string + '(', list);
+        if (close > 0 && open < close)
+            n_MatchedParentheses(open, close - 1, string + ')', list);
+    }
     return list;
 }
 
-console.log(generateParenthesis(3));
+console.log(generateParenthesis(2));

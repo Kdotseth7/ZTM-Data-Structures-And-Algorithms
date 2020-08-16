@@ -34,7 +34,7 @@ function returnCombinations(digits, digit, mappings, combination, list) {
     // Our Goal (Base Case)
     if (digits.length === digit)
         list.push(combination);
-    //Our Choices
+    // Our Choices
     else {
         for (let i=0; i<mappings[digits.charAt(digit)].length; i++) {
             returnCombinations(digits, digit + 1, mappings,combination + mappings[digits.charAt(digit)].charAt(i), list);
