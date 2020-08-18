@@ -1,3 +1,20 @@
+//PreOrder, InOrder & PostOrder: https://www.youtube.com/watch?v=BHB0B1jFKQc
+
+//     9
+//  4     20
+//1  6  15  170
+
+/*
+BFS-> [9, 4, 20, 1, 6, 15, 170]
+*/
+
+/*
+DFS ->
+PreOrder: [9, 4, 1, 6, 20, 15, 170]
+InOrder: [1, 4, 6, 9, 15, 20, 170]
+PostOrder: [1, 6, 4, 15, 170, 20, 9]
+*/
+
 class BSTNode {
 
     constructor(value) {
@@ -137,7 +154,76 @@ class BinarySearchTree {
         }
     }
 
+    //BFS uses Queue DS
+    breadthFirstSearch() {
+        let currentNode = this.root;
+        let queue = []; //to keep track of the level
+        let list = []; //keeps track of order of traversal
+        queue.push(currentNode);
+        while(queue.length > 0) {
+            currentNode = queue.shift(); //Shift removes first item from front of the queue
+            if (currentNode.left)
+                queue.push(currentNode.left);
+            if (currentNode.right)
+                queue.push(currentNode.right);
+            list.push(currentNode.value);
+        }
+        return list;
+    }
+
+    breadthFirstSearchRecursive(queue, list) {
+        if(!queue.length)
+            return list;
+        let currentNode = queue.unshift();
+        list.push(currentNode.value);
+        if (currentNode.left)
+            queue.push(currentNode.left);
+        if (currentNode.right)
+            queue.push(currentNode.right);
+        return this.breadthFirstSearchRecursive(queue, list);
+    }
+
+    //DFS uses Stack DS, i.e., the Call Stack
+    DFS_PreOrder() {
+        return traversePreOrder(this.root, []);
+    }
+
+    DFS_InOrder() {
+        return traverseInOrder(this.root, []);
+    }
+
+    DFS_PostOrder() {
+        return traversePostOrder(this.root, []);
+    }
+
 }
+
+const traversePreOrder = (node, list) => {
+    list.push(node.value);
+    if (node.left)
+        traversePreOrder(node.left, list);
+    if (node.right)
+        traversePreOrder(node.right, list);
+    return list;
+};
+
+const traverseInOrder = (node, list) => {
+    if (node.left)
+        traverseInOrder(node.left, list);
+    list.push(node.value);
+    if (node.right)
+        traverseInOrder(node.right, list);
+    return list;
+};
+
+const traversePostOrder = (node, list) => {
+    if (node.left)
+        traversePostOrder(node.left, list);
+    if (node.right)
+        traversePostOrder(node.right, list);
+    list.push(node.value);
+    return list;
+};
 
 const traverse = node => {
     const tree = { value: node.value };
@@ -153,16 +239,16 @@ const traverse = node => {
 const myBST = new BinarySearchTree();
 myBST.insert(9);
 myBST.insert(4);
+myBST.insert(1);
 myBST.insert(6);
 myBST.insert(20);
+myBST.insert(15);
 myBST.insert(170);
-console.log(myBST.insert(15));
-console.log(JSON.stringify(traverse(myBST.root)));
-console.log("________________________________________________________________________");
-console.log(myBST.lookup(20));
-console.log(myBST.lookup(999));
-console.log("________________________________________________________________________");
-console.log(myBST.remove(6));
+console.log("BFS: ", myBST.breadthFirstSearch());
+console.log("BFS Recursive: ", myBST.breadthFirstSearch([myBST.root], []));
+console.log("DFS ->PreOrder: ", myBST.DFS_PreOrder());
+console.log("DFS ->InOrder: ", myBST.DFS_InOrder());
+console.log("DFS ->PostOrder: ", myBST.DFS_PostOrder());
 
 
 

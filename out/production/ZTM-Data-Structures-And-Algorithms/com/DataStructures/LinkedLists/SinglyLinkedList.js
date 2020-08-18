@@ -75,7 +75,7 @@ class LinkedList {
         const unwantedNode = preNode.next;
         preNode.next = unwantedNode.next;
         this.length--;
-        return this.printList();
+        return unwantedNode;
     }
 
     traverseToIndex(index) {

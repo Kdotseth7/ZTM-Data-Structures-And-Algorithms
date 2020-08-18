@@ -1,6 +1,6 @@
 const beasts = ['Centaur', 'Godzilla', 'Mosura', 'Minotaur', 'Hydra', 'Nessie'];
 
-console.log("indexOf: ", beasts.indexOf('Godzilla')); //Uses LinearSearch to find element and returns the index
+console.log("indexOf: ", beasts.indexOf('Godzilla')); //Uses LinearSearch to find element and returns its location
 
 console.log("findIndex: ", beasts.findIndex(function(item){
     return item === 'Godzilla';
