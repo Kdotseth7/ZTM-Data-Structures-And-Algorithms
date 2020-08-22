@@ -11,7 +11,6 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 */
 const insertionSort = array => {
     for (let i=1; i<array.length; i++) {
-        debugger;
         let currentElement = array[i];
         //Shift all elements of sorted part > current element to the right
         let j = i-1;

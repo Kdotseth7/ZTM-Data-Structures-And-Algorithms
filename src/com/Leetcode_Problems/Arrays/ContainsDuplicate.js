@@ -20,7 +20,6 @@ Output: true
 const containsDuplicate = nums => {
     for (let i=0; i<nums.length-1; i++) {
         for (let j=i+1; j<nums.length; j++) {
-            console.log(nums[i], nums[j]);
             if (nums[i] === nums[j])
                 return true;
         }
@@ -35,7 +34,7 @@ const containsDuplicate_HashMap = input => {
     let hashMap = {};
     for (let i=0; i<arrayLength; i++) {
         if (hashMap[input[i]])
-            hashMap[input[i]] = hashMap[input[i]] + 1;
+            hashMap[input[i]] += 1;
         else
             hashMap[input[i]] = 1;
         if (hashMap[input[i]] > 1)
