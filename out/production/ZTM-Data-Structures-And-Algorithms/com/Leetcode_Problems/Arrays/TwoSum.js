@@ -8,7 +8,7 @@ return [0, 1].*/
 const twoSum = (nums, target) => {
     //Check Input
     if (!nums || !target)
-        return "Invalid Input";
+        return false;
     for (let i=0; i<nums.length-1; i++) {
         for (let j=i+1; j<nums.length; j++) {
             console.log(nums[i], nums[j]);
@@ -18,5 +18,6 @@ const twoSum = (nums, target) => {
     }
 };
 
-const numbers = twoSum([2, 7, 11, 15], 26); //O(n^2)
-console.log(`The numbers are: ${numbers}`);
+console.log(twoSum([2, 7, 11, 15], 9));
+//TC: O(n^2)
+//SC: O(1)
