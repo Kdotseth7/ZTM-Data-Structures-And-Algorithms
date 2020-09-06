@@ -11,9 +11,26 @@ const stringReverse = str => {
     }
     return reversedString.join('');
 };
+console.log(stringReverse("My name is John Doe!"));
+//TC: O(n)
+//SC: O(n)
 
-const reversedString = stringReverse("My name is John Doe!");
-console.log(reversedString);
+// Using 2 pointer method
+const stringReverse_InPlace = str => {
+    str = str.split('');
+    const length = str.length;
+    let j = length - 1;
+    for (let i=0; i<length/2; i++) {
+        let temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
+        j--;
+    }
+    return str.join('');
+}
+console.log(stringReverse_InPlace("Kushagra"));
+//TC: O(n)
+//SC: O(1)
 
 // Using arrow functions and built-in reverse method
 const reverse2 = str => str.split('').reverse().join('');

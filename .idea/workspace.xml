@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="de2980c4-ae10-4dcc-8287-0c756c04fdd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataStructures/Arrays/StringReverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures/Arrays/StringReverse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Arrays/StringCompression.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Arrays/StringCompression.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM-Data-Structures-And-Algorithms/com/DataStructures/Arrays/StringReverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM-Data-Structures-And-Algorithms/com/DataStructures/Arrays/StringReverse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM-Data-Structures-And-Algorithms/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/RotateMatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM-Data-Structures-And-Algorithms/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/RotateMatrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZTM-Data-Structures-And-Algorithms/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/ZeroMatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZTM-Data-Structures-And-Algorithms/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/ZeroMatrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures/Arrays/ArmstrongNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Others/ArmstrongNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Arrays/CheckPermutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Arrays/CheckPermutation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +23,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/Leetcode_Problems/Arrays/Implement_strStr().js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -45,12 +52,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Arrays/StringCompression.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Arrays/OneAway.js" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.Array_InterchangeEveryEvenWIthOdd.js">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Others\NumberConversions" />
+      <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Leetcode_Problems\Arrays" />
+      <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Others" />
+      <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\GayleLaakmannMcDowell_Problems\Arrays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.Implement_strStr().js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -62,39 +77,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArmstrongNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/ArmstrongNumber.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
+    <configuration name="DecimalToBinary.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Others/NumberConversions/DecimalToBinary.js" working-dir="$PROJECT_DIR$/src/com/Others">
       <method v="2" />
     </configuration>
-    <configuration name="Array_InterchangeEveryEvenWIthOdd.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/Array_InterchangeEveryEvenWIthOdd.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
+    <configuration name="HammingWeight.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Others/HammingWeight.js" working-dir="$PROJECT_DIR$/src/com/Others">
       <method v="2" />
     </configuration>
-    <configuration name="Array_InterchangeFirstHalfWithSecondHalf.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/Array_InterchangeFirstHalfWithSecondHalf.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
+    <configuration name="Implement_strStr().js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Arrays/Implement_strStr().js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Arrays">
       <method v="2" />
     </configuration>
-    <configuration name="Palindrome.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/Palindrome.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
+    <configuration name="MissingNumber.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Others/MissingNumber.js" working-dir="$PROJECT_DIR$/src/com/Others">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReverseBits.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Others/ReverseBits.js" working-dir="$PROJECT_DIR$/src/com/Others">
       <method v="2" />
     </configuration>
     <configuration name="RotateMatrix.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/RotateMatrix.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="StringReverse.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/StringReverse.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Node.js.RotateMatrix.js" />
-      <item itemvalue="Node.js.Palindrome.js" />
-      <item itemvalue="Node.js.StringReverse.js" />
-      <item itemvalue="Node.js.ArmstrongNumber.js" />
-      <item itemvalue="Node.js.Array_InterchangeFirstHalfWithSecondHalf.js" />
-      <item itemvalue="Node.js.Array_InterchangeEveryEvenWIthOdd.js" />
+      <item itemvalue="Node.js.DecimalToBinary.js" />
+      <item itemvalue="Node.js.HammingWeight.js" />
+      <item itemvalue="Node.js.ReverseBits.js" />
+      <item itemvalue="Node.js.MissingNumber.js" />
+      <item itemvalue="Node.js.Implement_strStr().js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Array_InterchangeEveryEvenWIthOdd.js" />
-        <item itemvalue="Node.js.Array_InterchangeFirstHalfWithSecondHalf.js" />
-        <item itemvalue="Node.js.ArmstrongNumber.js" />
-        <item itemvalue="Node.js.StringReverse.js" />
-        <item itemvalue="Node.js.Palindrome.js" />
+        <item itemvalue="Node.js.Implement_strStr().js" />
+        <item itemvalue="Node.js.MissingNumber.js" />
+        <item itemvalue="Node.js.ReverseBits.js" />
+        <item itemvalue="Node.js.HammingWeight.js" />
+        <item itemvalue="Node.js.DecimalToBinary.js" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +124,11 @@
       <workItem from="1598625661995" duration="91000" />
       <workItem from="1598625825605" duration="17488000" />
       <workItem from="1598730752239" duration="11830000" />
-      <workItem from="1598905080233" duration="6791000" />
+      <workItem from="1598905080233" duration="8172000" />
+      <workItem from="1598988041127" duration="2510000" />
+      <workItem from="1598991820046" duration="9223000" />
+      <workItem from="1599154639660" duration="121000" />
+      <workItem from="1599154786955" duration="43247000" />
     </task>
     <servers />
   </component>
@@ -117,51 +136,130 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1732" y="576" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598731652169">
-      <screen x="-1920" y="576" width="1280" height="653" />
+    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599235589682">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1732" y="576" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731652169" />
+    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599235589682" />
     <state x="2145" y="-508" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626641248" />
-    <state x="-1535" y="791" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598731630099">
-      <screen x="-1920" y="576" width="1280" height="653" />
+    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598988518489" />
+    <state x="396" y="0" key="#xdebugger.evaluate" timestamp="1599309644631">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="0" key="#xdebugger.evaluate/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599309644631" />
+    <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598988480569">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1535" y="791" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731630099" />
-    <state x="-1462" y="709" key="FileChooserDialogImpl" timestamp="1598731650902">
-      <screen x="-1920" y="576" width="1280" height="653" />
+    <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1598988480569" />
+    <state x="458" y="138" key="FileChooserDialogImpl" timestamp="1599235587763">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1462" y="709" key="FileChooserDialogImpl/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731650902" />
+    <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599235587763" />
     <state x="2470" y="-408" key="FileChooserDialogImpl/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626639613" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1598913523693">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598988517025" />
+    <state width="1237" height="221" key="GridCell.Tab.0.bottom" timestamp="1599401246515">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598798150161" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913523693" />
+    <state width="1237" height="270" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
+    <state width="1237" height="221" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401246515" />
     <state width="1237" height="390" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1598913523693">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
+    <state width="1237" height="221" key="GridCell.Tab.0.center" timestamp="1599401246515">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598798150160" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913523693" />
+    <state width="1237" height="270" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
+    <state width="1237" height="221" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401246515" />
     <state width="1237" height="390" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1598913523693">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
+    <state width="1237" height="221" key="GridCell.Tab.0.left" timestamp="1599401246515">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598798150160" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913523693" />
+    <state width="1237" height="270" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034035" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
+    <state width="1237" height="221" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401246515" />
     <state width="1237" height="390" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1598913523693">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
+    <state width="1237" height="221" key="GridCell.Tab.0.right" timestamp="1599401246515">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="223" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598798150161" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913523693" />
+    <state width="1237" height="270" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
+    <state width="1237" height="221" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401246515" />
     <state width="1237" height="390" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state x="2199" y="-518" key="SettingsEditor" timestamp="1598626531424">
-      <screen x="1920" y="-576" width="1536" height="824" />
+    <state width="1237" height="255" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
+    <state width="1237" height="233" key="GridCell.Tab.1.bottom" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="233" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.1.center" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.1.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.1.left" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.1.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.1.right" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.1.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.2.bottom" timestamp="1599401241545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.2.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241545" />
+    <state width="1237" height="233" key="GridCell.Tab.2.center" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.2.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.2.left" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.2.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.2.right" timestamp="1599401241544">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.2.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241544" />
+    <state width="1237" height="233" key="GridCell.Tab.3.bottom" timestamp="1599401241545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.3.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241545" />
+    <state width="1237" height="233" key="GridCell.Tab.3.center" timestamp="1599401241545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.3.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241545" />
+    <state width="1237" height="233" key="GridCell.Tab.3.left" timestamp="1599401241545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.3.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241545" />
+    <state width="1237" height="233" key="GridCell.Tab.3.right" timestamp="1599401241545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="233" key="GridCell.Tab.3.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599401241545" />
+    <state x="233" y="0" key="SettingsEditor" timestamp="1599309960727">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="SettingsEditor/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599309960727" />
     <state x="2199" y="-518" key="SettingsEditor/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626531424" />
+    <state x="303" y="-1" width="672" height="707" key="search.everywhere.popup" timestamp="1599346701287">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="-1617" y="575" width="672" height="678" key="search.everywhere.popup/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598990833810" />
+    <state x="303" y="-1" width="672" height="707" key="search.everywhere.popup/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599346701287" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
