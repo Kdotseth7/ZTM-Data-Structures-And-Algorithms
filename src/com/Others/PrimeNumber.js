@@ -4,7 +4,11 @@ Prime Number: Factors: 1 and number itself
 
 const prime = num => {
     let isPrime = true;
-    for (let i=2; i<num-1; i++) {
+    /*
+    We are looping from 2 to num/2. It is because a number is not divisible by more than
+    its half.
+    */
+    for (let i=2; i<=num/2; i++) {
         if (num % i === 0) {
             isPrime = false;
             break;

@@ -27,7 +27,6 @@ Constraints: haystack and needle consist only of lowercase English characters.
  */
 
 const strStr = function(haystack, needle) {
-    debugger;
     const m = haystack.length;
     const n = needle.length;
     if (!n) return 0;
@@ -47,6 +46,8 @@ const strStr = function(haystack, needle) {
     }
     return -1;
 };
+//TC: O(n)
+//SC: O(1)
 
 console.log(strStr("hello", "ll"));
 console.log(strStr("blocker", "ker"));
