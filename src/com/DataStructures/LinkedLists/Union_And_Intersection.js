@@ -78,7 +78,38 @@ linkedList_2.append(6);
 linkedList_2.append(8);
 console.log(linkedList_2.print());
 
+const union = () => {
+    // Find Union Nodes
+    const set = new Set();
+    let currentNode_LL1 = linkedList_1.head;
+    while (currentNode_LL1 !== null) {
+        if (!set.has(currentNode_LL1.value))
+            set.add(currentNode_LL1.value);
+        currentNode_LL1 = currentNode_LL1.next;
+    }
+    let currentNode_LL2 = linkedList_2.head;
+    while (currentNode_LL2 !== null) {
+        if (!set.has(currentNode_LL2.value))
+            set.add(currentNode_LL2.value);
+        currentNode_LL2 = currentNode_LL2.next;
+    }
+    // Create Union List
+    const setValues = set.values();
+    const unionList = new LinkedList(setValues.next().value);
+    let currentNode_UL = unionList.head;
+    for (let val of setValues) {
+        const newNode = new Node(val);
+        currentNode_UL.next = newNode;
+        currentNode_UL = newNode;
+    }
+    unionList.tail = currentNode_LL1;
+    return unionList.print();
+}
+
+console.log("Union: ", union());
+
 const intersection = () => {
+    // Find Intersection Nodes
     let intersectionValues = [];
     let currentNode_List1 = linkedList_1.head;
     while (currentNode_List1 !== null) {
@@ -93,15 +124,16 @@ const intersection = () => {
         }
         currentNode_List1 = currentNode_List1.next;
     }
+    // Create Intersection List
     const intersectionList = new LinkedList(intersectionValues[0]);
     let currentNode_IL = intersectionList.head;
     for (let i=1; i<intersectionValues.length; i++) {
         const newNode = new Node(intersectionValues[i]);
-        currentNode_IL.next = newNode
+        currentNode_IL.next = newNode;
         currentNode_IL = newNode;
     }
     intersectionList.tail = currentNode_IL;
-    return intersectionList;
+    return intersectionList.print();
 }
 
-console.log(intersection());
+console.log("Intersection:", intersection());
