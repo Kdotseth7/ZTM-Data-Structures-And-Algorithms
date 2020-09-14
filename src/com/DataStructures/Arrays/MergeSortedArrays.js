@@ -30,4 +30,4 @@ const mergeSortedArrays = (array1, array2) => {
 };
 
 const mergedArray = mergeSortedArrays([0, 3, 4, 31], [4, 6, 30]);
-console.log("Merged com.DataStructures.com.GayleLaakmannMcDowell_Problems.Arrays: " + mergedArray);
+console.log("Merged Arrays: " + mergedArray);

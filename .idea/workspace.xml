@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de2980c4-ae10-4dcc-8287-0c756c04fdd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DataStructures/Arrays/MergeSortedArrays.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures/Arrays/MergeSortedArrays.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Others" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.SumLists.js">
+  <component name="RunManager" selected="Node.js.Merge2SortedLists.js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,7 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOf2LinkedLists.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists/IntersectionOf2LinkedLists.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists">
+    <configuration name="Merge2SortedArrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Concept_ReRun/Merge2SortedArrays.js" working-dir="$PROJECT_DIR$/src/Concept_ReRun">
+      <method v="2" />
+    </configuration>
+    <configuration name="Merge2SortedLists.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists/Merge2SortedLists.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists">
+      <method v="2" />
+    </configuration>
+    <configuration name="MergeSortedArrays.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/MergeSortedArrays.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
       <method v="2" />
     </configuration>
     <configuration name="RotateMatrix.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/RotateMatrix.js" working-dir="$PROJECT_DIR$">
@@ -87,30 +94,24 @@
     <configuration name="SumLists.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/LinkedLists/SumLists.js" working-dir="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/LinkedLists">
       <method v="2" />
     </configuration>
-    <configuration name="Union_And_Intersection.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/LinkedLists/Union_And_Intersection.js" working-dir="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/LinkedLists">
-      <method v="2" />
-    </configuration>
     <configuration name="demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists/demo.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists">
-      <method v="2" />
-    </configuration>
-    <configuration name="interesection_Gotcha.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists/interesection_Gotcha.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/LinkedLists">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.RotateMatrix.js" />
-      <item itemvalue="Node.js.Union_And_Intersection.js" />
-      <item itemvalue="Node.js.IntersectionOf2LinkedLists.js" />
-      <item itemvalue="Node.js.interesection_Gotcha.js" />
       <item itemvalue="Node.js.SumLists.js" />
       <item itemvalue="Node.js.demo.js" />
+      <item itemvalue="Node.js.MergeSortedArrays.js" />
+      <item itemvalue="Node.js.Merge2SortedLists.js" />
+      <item itemvalue="Node.js.Merge2SortedArrays.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Merge2SortedLists.js" />
+        <item itemvalue="Node.js.Merge2SortedArrays.js" />
+        <item itemvalue="Node.js.MergeSortedArrays.js" />
         <item itemvalue="Node.js.SumLists.js" />
         <item itemvalue="Node.js.demo.js" />
-        <item itemvalue="Node.js.IntersectionOf2LinkedLists.js" />
-        <item itemvalue="Node.js.interesection_Gotcha.js" />
-        <item itemvalue="Node.js.Union_And_Intersection.js" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +133,7 @@
       <workItem from="1599154786955" duration="55162000" />
       <workItem from="1599675925713" duration="807000" />
       <workItem from="1599921696393" duration="87000" />
-      <workItem from="1599921810414" duration="42268000" />
+      <workItem from="1599921810414" duration="46883000" />
     </task>
     <servers />
   </component>
@@ -151,10 +152,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="396" y="0" key="#xdebugger.evaluate/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599309644631" />
-    <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1598988480569">
+    <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600123735706">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1535" y="791" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731630099" />
+    <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600123735706" />
     <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1598988480569" />
     <state x="458" y="138" key="FileChooserDialogImpl" timestamp="1599235587763">
       <screen x="0" y="0" width="1280" height="680" />
@@ -163,45 +165,45 @@
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599235587763" />
     <state x="2470" y="-408" key="FileChooserDialogImpl/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626639613" />
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598988517025" />
-    <state width="1237" height="440" key="GridCell.Tab.0.bottom" timestamp="1600116835786">
+    <state width="1237" height="245" key="GridCell.Tab.0.bottom" timestamp="1600124001113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
-    <state width="1237" height="440" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600116835786" />
+    <state width="1237" height="245" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600124001113" />
     <state width="1237" height="233" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1599675896163" />
     <state width="1237" height="390" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
     <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="440" key="GridCell.Tab.0.center" timestamp="1600116835785">
+    <state width="1237" height="245" key="GridCell.Tab.0.center" timestamp="1600124001113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
-    <state width="1237" height="440" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600116835785" />
+    <state width="1237" height="245" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600124001113" />
     <state width="1237" height="233" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1599675896162" />
     <state width="1237" height="390" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
     <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="440" key="GridCell.Tab.0.left" timestamp="1600116835785">
+    <state width="1237" height="245" key="GridCell.Tab.0.left" timestamp="1600124001113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034035" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
-    <state width="1237" height="440" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600116835785" />
+    <state width="1237" height="245" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600124001113" />
     <state width="1237" height="233" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1599675896162" />
     <state width="1237" height="390" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
     <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="440" key="GridCell.Tab.0.right" timestamp="1600116835786">
+    <state width="1237" height="245" key="GridCell.Tab.0.right" timestamp="1600124001113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="270" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
-    <state width="1237" height="440" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600116835786" />
+    <state width="1237" height="245" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600124001113" />
     <state width="1237" height="233" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1599675896163" />
     <state width="1237" height="390" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
