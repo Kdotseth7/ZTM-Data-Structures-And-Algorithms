@@ -68,7 +68,7 @@ const mergeTwoLists = function(list1, list2) { //TC: O(n), SC: O(n)
         // If end of list2 is reached
         if (!currentNode_List2) {
             mergedList.append(currentNode_List1.value);
-            currentNode_List2 = currentNode_List1.next;
+            currentNode_List1 = currentNode_List1.next;
             continue;
         }
         if (currentNode_List1.value <= currentNode_List2.value) {
