@@ -3,15 +3,15 @@ class Node {
     constructor(value) {
         this.value = value;
         this.next = null;
-        this.prev = null;
     }
 
 }
 
-class DoublyLinkedList {
+class Circular_SinglyLinkedList {
 
     constructor(value) {
         this.head = new Node(value);
+        this.head.next = this.head;
         this.tail = this.head;
         this.length = 1;
     }
@@ -19,8 +19,8 @@ class DoublyLinkedList {
     append(value) {
         const newNode = new Node(value);
         this.tail.next = newNode;
-        newNode.prev = this.tail;
         this.tail = newNode;
+        newNode.next = this.head;
         this.length++;
         return this.printList();
     }
@@ -28,8 +28,8 @@ class DoublyLinkedList {
     prepend(value) {
         const newNode = new Node(value);
         newNode.next = this.head;
-        this.head.prev = newNode;
         this.head = newNode;
+        this.tail.next = this.head;
         this.length++;
         return this.printList();
     }
@@ -37,17 +37,15 @@ class DoublyLinkedList {
     insert(index, value) {
         //Check if index is 0
         if (index === 0)
-           return this.prepend(value);
+            return this.prepend(value);
         //Check if index is greater than length of Linked List
         if (index > this.length)
             return this.append(value);
         const newNode = new Node(value);
-        const prevNode = this.traverseToIndex(index - 1);
-        const postNode = prevNode.next;
-        prevNode.next = newNode;
-        newNode.prev = prevNode;
+        const preNode = this.traverseToIndex(index - 1);
+        const postNode = preNode.next;
+        preNode.next = newNode;
         newNode.next = postNode;
-        postNode.prev = newNode;
         this.length++;
         return this.printList();
     }
@@ -61,7 +59,6 @@ class DoublyLinkedList {
         if (index === 0) {
             unwantedNode = this.head;
             this.head = unwantedNode.next;
-            this.head.prev = null;
         } else {
             const prevNode = this.traverseToIndex(index - 1);
             unwantedNode = prevNode.next;
@@ -69,10 +66,9 @@ class DoublyLinkedList {
             if (index === this.length - 1) {
                 prevNode.next = null;
                 this.tail = prevNode;
+                this.tail.next = this.head;
             } else {
-                const postNode = unwantedNode.next;
-                prevNode.next = postNode;
-                postNode.prev = prevNode;
+                prevNode.next = unwantedNode.next;
             }
         }
         this.length--;
@@ -88,11 +84,10 @@ class DoublyLinkedList {
         }
         return currentNode;
     }
-
     printList() {
-        let array = [];
-        let currentNode = this.head;
-        while (currentNode !== null) {
+        let array = [this.head.value];
+        let currentNode = this.head.next;
+        while (currentNode.value !== this.head.value) {
             array.push(currentNode.value);
             currentNode = currentNode.next;
         }
@@ -101,17 +96,21 @@ class DoublyLinkedList {
 
 }
 
-//Instantiate DLL with head as 10
-const myLinkedList = new DoublyLinkedList(10);
-//Append 8
-console.log(myLinkedList.append(8));
-//Prepend 4
-console.log(myLinkedList.prepend(4));
-//Insert 98 at index 200
-console.log(myLinkedList.insert(200, 98));
-//Insert 22 at index 1
-console.log(myLinkedList.insert(1, 22));
-//Remove index 2
+//Instantiate LL with head as 10
+const myLinkedList = new Circular_SinglyLinkedList(10);
+//Append 5
+console.log(myLinkedList.append(5));
+//Append 16
+console.log(myLinkedList.append(16));
+//Prepend 1
+console.log(myLinkedList.prepend(1));
+//Insert 99 at index 200
+console.log(myLinkedList.insert(200, 99));
+//Insert 21 at index 2
+console.log(myLinkedList.insert(2, 21));
+//Remove index 3
+console.log(myLinkedList.remove(3));
+//Remove index 0
 console.log(myLinkedList.remove(0));
 //Remove index 4
 console.log(myLinkedList.remove(3));

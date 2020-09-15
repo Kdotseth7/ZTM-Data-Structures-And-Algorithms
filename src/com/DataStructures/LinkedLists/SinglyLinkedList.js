@@ -59,9 +59,9 @@ class LinkedList {
         if (index > this.length)
             return this.append(value);
         const newNode = new Node(value);
-        const preNode = this.traverseToIndex(index - 1);
-        const postNode = preNode.next;
-        preNode.next = newNode;
+        const prevNode = this.traverseToIndex(index - 1);
+        const postNode = prevNode.next;
+        prevNode.next = newNode;
         newNode.next = postNode;
         this.length++;
         return this.printList();
@@ -69,22 +69,22 @@ class LinkedList {
 
     remove(index) {
         //Check if index is greater than length of Linked List
-        if (index > this.length)
+        if (index >= this.length)
             return false;
         let unwantedNode;
-        //If first node has to be removed than update head
+        //If first node has to be removed then update head
         if (index === 0) {
             unwantedNode = this.head;
             this.head = unwantedNode.next;
         } else {
-            const preNode = this.traverseToIndex(index - 1);
-            unwantedNode = preNode.next;
-            //If last node has to be removed than update tail
+            const prevNode = this.traverseToIndex(index - 1);
+            unwantedNode = prevNode.next;
+            //If last node has to be removed then update tail
             if (index === this.length - 1) {
-                preNode.next = null;
-                this.tail = preNode;
+                prevNode.next = null;
+                this.tail = prevNode;
             } else {
-                preNode.next = unwantedNode.next;
+                prevNode.next = unwantedNode.next;
             }
         }
         this.length--;
