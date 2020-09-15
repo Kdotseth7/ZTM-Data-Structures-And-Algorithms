@@ -70,10 +70,23 @@ class LinkedList {
     remove(index) {
         //Check if index is greater than length of Linked List
         if (index > this.length)
-            return "Index out of bounds";
-        const preNode = this.traverseToIndex(index - 1);
-        const unwantedNode = preNode.next;
-        preNode.next = unwantedNode.next;
+            return false;
+        let unwantedNode;
+        //If first node has to be removed than update head
+        if (index === 0) {
+            unwantedNode = this.head;
+            this.head = unwantedNode.next;
+        } else {
+            const preNode = this.traverseToIndex(index - 1);
+            unwantedNode = preNode.next;
+            //If last node has to be removed than update tail
+            if (index === this.length - 1) {
+                preNode.next = null;
+                this.tail = preNode;
+            } else {
+                preNode.next = unwantedNode.next;
+            }
+        }
         this.length--;
         return unwantedNode;
     }
@@ -131,8 +144,10 @@ console.log(myLinkedList.insert(200, 99));
 console.log(myLinkedList.insert(2, 21));
 //Remove index 3
 console.log(myLinkedList.remove(3));
-console.log(myLinkedList);
+//Remove index 0
+console.log(myLinkedList.remove(0));
+//Print List
+console.log(myLinkedList.printList());
 //Reverse and print LL
 myLinkedList.reverse();
 console.log(myLinkedList.printList());
-console.log(myLinkedList);
