@@ -32,13 +32,6 @@ class LinkedList {
         this.length++;
         return this.print();
     }
-    prepend(value) {
-        const newNode = new Node(value);
-        newNode.next = this.head;
-        this.head = newNode;
-        this.length++;
-        return this.print();
-    }
     traverseToIndex(index) {
         let counter = 0;
         let currentNode = this.head;
@@ -47,26 +40,6 @@ class LinkedList {
             counter++;
         }
         return currentNode;
-    }
-    insert(index, value) {
-        if (index === 0) return this.prepend(value);
-        if (index > this.length) return this.append(value);
-        const newNode = new Node(value);
-        const prevNode = this.traverseToIndex(index - 1);
-        const postNode = prevNode.next;
-        prevNode.next = newNode;
-        newNode.next = postNode;
-        this.length++;
-        return this.print();
-    }
-    remove(index) {
-        if (index > this.length)
-            return false;
-        const prevNode = this.traverseToIndex(index - 1);
-        const unwantedNode = prevNode.next;
-        prevNode.next = unwantedNode.next;
-        this.length--;
-        return unwantedNode;
     }
     removeNthFromEnd(n) {
         const nthFromEndIndex = this.length - n;
@@ -92,5 +65,49 @@ console.log(myLinkedList.append(2));
 console.log(myLinkedList.append(3));
 console.log(myLinkedList.append(4));
 console.log(myLinkedList.append(5));
-console.log(myLinkedList.removeNthFromEnd(2));
+//console.log(myLinkedList.removeNthFromEnd(2));
 
+const removeNthFromEndOfList = (head, n) => {
+    if (!head) return null;
+    let length = 0;
+    let currentNode = head;
+    while (currentNode !== null) {
+        length++;
+        currentNode = currentNode.next;
+    }
+    if (length === n) return head.next;
+    let prevNode = head;
+    let counter = 0;
+    while (counter < length - n - 1) {
+        counter++;
+        prevNode = prevNode.next;
+    }
+    const unwantedNode = prevNode.next;
+    prevNode.next = unwantedNode.next;
+    return head;
+}
+//TC: O(n)
+//SC: O(1)
+
+//console.log(removeNthFromEndOfList(myLinkedList.head, 2));
+
+const removeNthFromEnd_OnePass = (head, n) => {
+    //Using dummyHead to handle the edge case when n == length
+    let dummyHead = new Node(0);
+    dummyHead.next = head;
+    let slow = dummyHead;
+    let fast = dummyHead;
+    for (let i=1; i<=n+1; i++) {
+        fast = fast.next;
+    }
+    while (fast != null) {
+        slow = slow.next;
+        fast = fast.next;
+    }
+    slow.next = slow.next.next;
+    return dummyHead.next;
+}
+//TC: O(n)
+//SC: O(1)
+
+console.log(removeNthFromEnd_OnePass(myLinkedList.head, 2));

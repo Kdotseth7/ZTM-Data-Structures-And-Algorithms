@@ -85,3 +85,19 @@ console.log(myLinkedList.print());
 console.log(myLinkedList.deleteMiddleNode());
 console.log(myLinkedList.deleteMiddleNode());
 
+// Using Floyd's slow and fast ptr's
+const deleteMiddle = head => {
+    let slow = head,
+        fast = head;
+    while (fast.next && fast.next.next) {
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    const prevNode = slow;
+    const middleNode = slow.next;
+    prevNode.next = middleNode.next;
+    return head;
+}
+
+console.log(deleteMiddle(myLinkedList.head));
+
