@@ -7,7 +7,7 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 //Link: https://www.youtube.com/watch?v=mB5HXBb_HY8
 /*
 1. Uses divide and conquer technique, i.e., com.GayleLaakmannMcDowell_Problems.Recursion
-2. If your'e not worried about Space Complexity, merge sort is best as it has same best and worst case for Time Complexity
+2. If you're not worried about Space Complexity, merge sort is best as it has same best and worst case for Time Complexity
 3. Merge Sort is a stable algorithm: https://stackoverflow.com/questions/1517793/what-is-stability-in-sorting-algorithms-and-why-is-it-important
 */
 /*

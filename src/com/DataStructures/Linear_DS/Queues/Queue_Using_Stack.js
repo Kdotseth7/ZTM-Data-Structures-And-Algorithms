@@ -1,5 +1,5 @@
 // Link: https://www.youtube.com/watch?v=Wg8IiY1LbII&t=782s
-// Uses 2 stacks implemented using arrays
+// Uses 2 stacks, implemented using arrays
 
 class Queue_Using_Stack {
 

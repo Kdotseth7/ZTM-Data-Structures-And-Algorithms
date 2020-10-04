@@ -19,7 +19,7 @@ class Stack {
     }
 
     isEmpty() {
-        return !this.array[this.array.length - 1];
+        return !this.array.length;
     }
 
 }
