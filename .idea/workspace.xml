@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de2980c4-ae10-4dcc-8287-0c756c04fdd2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Algorithms/Sorting/ComparisonSorts/MergeSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Algorithms/Sorting/ComparisonSorts/MergeSort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Queue_Using_Stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Queues/Queue_Using_Stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks/Stack_using_Array.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks/Stack_using_Array.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +67,24 @@
       <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Leetcode_Problems\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.SortStack.js">
-    <configuration name="AnimalShelter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Linear_DS/Queues/AnimalShelter.js" working-dir="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Linear_DS/Queues">
+  <component name="RunManager" selected="Node.js.ValidParentheses.js">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountVowelsAndConsonants.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/CountVowelsAndConsonants.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
       <method v="2" />
     </configuration>
-    <configuration name="MinStack.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks/MinStack.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
+    <configuration name="EvaluateReversePolishNotation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks/EvaluateReversePolishNotation.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
       <method v="2" />
     </configuration>
     <configuration name="RotateMatrix.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/RotateMatrix.js" working-dir="$PROJECT_DIR$">
@@ -83,27 +93,27 @@
     <configuration name="SortStack.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Linear_DS/Stacks/SortStack.js" working-dir="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Linear_DS/Stacks">
       <method v="2" />
     </configuration>
-    <configuration name="Stack_using_Array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks/Stack_using_Array.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks">
+    <configuration name="Stack_using_LinkedList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks/Stack_using_LinkedList.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks">
       <method v="2" />
     </configuration>
-    <configuration name="Stack_using_LinkedList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks/Stack_using_LinkedList.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks">
+    <configuration name="ValidParentheses.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks/ValidParentheses.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.RotateMatrix.js" />
-      <item itemvalue="Node.js.AnimalShelter.js" />
-      <item itemvalue="Node.js.MinStack.js" />
       <item itemvalue="Node.js.SortStack.js" />
-      <item itemvalue="Node.js.Stack_using_Array.js" />
       <item itemvalue="Node.js.Stack_using_LinkedList.js" />
+      <item itemvalue="Node.js.EvaluateReversePolishNotation.js" />
+      <item itemvalue="Node.js.CountVowelsAndConsonants.js" />
+      <item itemvalue="Node.js.ValidParentheses.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.ValidParentheses.js" />
+        <item itemvalue="Node.js.EvaluateReversePolishNotation.js" />
+        <item itemvalue="Node.js.CountVowelsAndConsonants.js" />
         <item itemvalue="Node.js.SortStack.js" />
         <item itemvalue="Node.js.Stack_using_LinkedList.js" />
-        <item itemvalue="Node.js.Stack_using_Array.js" />
-        <item itemvalue="Node.js.MinStack.js" />
-        <item itemvalue="Node.js.AnimalShelter.js" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +142,7 @@
       <workItem from="1601669584406" duration="224000" />
       <workItem from="1601730257627" duration="623000" />
       <workItem from="1601733921058" duration="9956000" />
+      <workItem from="1601812643221" duration="9887000" />
     </task>
     <servers />
   </component>
@@ -167,52 +178,52 @@
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599235587763" />
     <state x="2470" y="-408" key="FileChooserDialogImpl/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626639613" />
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598988517025" />
-    <state width="1237" height="293" key="GridCell.Tab.0.bottom" timestamp="1601750461679">
-      <screen x="-1920" y="522" width="1280" height="653" />
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1601930145700">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.bottom/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
-    <state width="1237" height="232" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601485398615" />
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
     <state width="1237" height="454" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
     <state width="1237" height="390" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
     <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="293" key="GridCell.Tab.0.center" timestamp="1601750461679">
-      <screen x="-1920" y="522" width="1280" height="653" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1601930145700">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.center/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
-    <state width="1237" height="232" key="GridCell.Tab.0.center/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601485398615" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
     <state width="1237" height="454" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
     <state width="1237" height="390" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
     <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="293" key="GridCell.Tab.0.left" timestamp="1601750461679">
-      <screen x="-1920" y="522" width="1280" height="653" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1601930145700">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.left/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034035" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
-    <state width="1237" height="232" key="GridCell.Tab.0.left/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601485398615" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
     <state width="1237" height="454" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
     <state width="1237" height="390" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
     <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="293" key="GridCell.Tab.0.right" timestamp="1601750461679">
-      <screen x="-1920" y="522" width="1280" height="653" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1601930145700">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.right/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
-    <state width="1237" height="232" key="GridCell.Tab.0.right/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601485398615" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
     <state width="1237" height="454" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
     <state width="1237" height="390" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
