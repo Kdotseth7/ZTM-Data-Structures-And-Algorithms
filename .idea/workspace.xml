@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de2980c4-ae10-4dcc-8287-0c756c04fdd2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Concept_ReRun/BST.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Algorithms/SearchingAndTraversal/Tree_BFS_DFS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Algorithms/SearchingAndTraversal/Tree_BFS_DFS.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="13.13.19" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/Leetcode_Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/DataStructures/Trees" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.codota.intellij.common.configuration.CodotaConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -63,57 +66,65 @@
       <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Leetcode_Problems\Arrays" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\Concept_ReRun" />
       <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Leetcode_Problems" />
       <recent name="C:\Users\ASUS\Documents\ZTM-Data-Structures-And-Algorithms\src\com\Leetcode_Problems\LinkedLists" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.ValidParentheses.js">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.PrintInRange_BST.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountVowelsAndConsonants.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Arrays/CountVowelsAndConsonants.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Arrays">
+    <configuration name="BinarySearchTree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="BinarySearchTree.js" working-dir="$PROJECT_DIR$/src/Concept_ReRun">
       <method v="2" />
     </configuration>
-    <configuration name="EvaluateReversePolishNotation.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks/EvaluateReversePolishNotation.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
+    <configuration name="LowestCommonAncestor(LCA)_BST.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Trees/LowestCommonAncestor(LCA)_BST.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Trees">
+      <method v="2" />
+    </configuration>
+    <configuration name="PrintInRange_BST.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Trees/PrintInRange_BST.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Trees">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReplaceWithSumOfLarger_BST.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ReplaceWithSumOfLarger_BST.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Trees">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReplaceWithSumOfLarger_BST.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Trees/ReplaceWithSumOfLarger_BST.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Trees">
       <method v="2" />
     </configuration>
     <configuration name="RotateMatrix.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="src/com/GayleLaakmannMcDowell_Problems/Arrays/Matrices/RotateMatrix.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="SortStack.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Linear_DS/Stacks/SortStack.js" working-dir="$PROJECT_DIR$/src/com/GayleLaakmannMcDowell_Problems/Linear_DS/Stacks">
+    <configuration name="SimplifyPath.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks/SimplifyPath.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
       <method v="2" />
     </configuration>
-    <configuration name="Stack_using_LinkedList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks/Stack_using_LinkedList.js" working-dir="$PROJECT_DIR$/src/com/DataStructures/Linear_DS/Stacks">
+    <configuration name="Tree_BFS_DFS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Tree_BFS_DFS.js" working-dir="$PROJECT_DIR$/src/com/Algorithms/SearchingAndTraversal">
       <method v="2" />
     </configuration>
-    <configuration name="ValidParentheses.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks/ValidParentheses.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
+    <configuration name="ValidParentheses.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ValidParentheses.js" working-dir="$PROJECT_DIR$/src/com/Leetcode_Problems/Linear_DS/Stacks">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.RotateMatrix.js" />
-      <item itemvalue="Node.js.SortStack.js" />
-      <item itemvalue="Node.js.Stack_using_LinkedList.js" />
-      <item itemvalue="Node.js.EvaluateReversePolishNotation.js" />
-      <item itemvalue="Node.js.CountVowelsAndConsonants.js" />
       <item itemvalue="Node.js.ValidParentheses.js" />
+      <item itemvalue="Node.js.BinarySearchTree.js" />
+      <item itemvalue="Node.js.ReplaceWithSumOfLarger_BST.js" />
+      <item itemvalue="Node.js.LowestCommonAncestor(LCA)_BST.js" />
+      <item itemvalue="Node.js.PrintInRange_BST.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.ValidParentheses.js" />
-        <item itemvalue="Node.js.EvaluateReversePolishNotation.js" />
-        <item itemvalue="Node.js.CountVowelsAndConsonants.js" />
-        <item itemvalue="Node.js.SortStack.js" />
-        <item itemvalue="Node.js.Stack_using_LinkedList.js" />
+        <item itemvalue="Node.js.PrintInRange_BST.js" />
+        <item itemvalue="Node.js.LowestCommonAncestor(LCA)_BST.js" />
+        <item itemvalue="Node.js.ReplaceWithSumOfLarger_BST.js" />
+        <item itemvalue="Node.js.ReplaceWithSumOfLarger_BST.js" />
+        <item itemvalue="Node.js.Tree_BFS_DFS.js" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +153,16 @@
       <workItem from="1601669584406" duration="224000" />
       <workItem from="1601730257627" duration="623000" />
       <workItem from="1601733921058" duration="9956000" />
-      <workItem from="1601812643221" duration="9887000" />
+      <workItem from="1601812643221" duration="10386000" />
+      <workItem from="1602173321423" duration="13968000" />
+      <workItem from="1602362816526" duration="1221000" />
+      <workItem from="1602701974281" duration="606000" />
+      <workItem from="1602707410827" duration="612000" />
+      <workItem from="1602865419737" duration="672000" />
+      <workItem from="1602872706778" duration="42848000" />
+      <workItem from="1603105939695" duration="8535000" />
+      <workItem from="1603137381043" duration="604000" />
+      <workItem from="1603225648285" duration="8847000" />
     </task>
     <servers />
   </component>
@@ -150,12 +170,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599235589682">
+    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603226370927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1732" y="576" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731652169" />
     <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599235589682" />
+    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1602926097257" />
     <state x="2145" y="-508" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626641248" />
+    <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603226370927" />
     <state x="188" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598988518489" />
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600527148623">
       <screen x="0" y="0" width="1280" height="680" />
@@ -171,64 +193,74 @@
     <state x="-1535" y="791" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731630099" />
     <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600123735706" />
     <state x="385" y="224" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1598988480569" />
-    <state x="458" y="138" key="FileChooserDialogImpl" timestamp="1599235587763">
+    <state x="458" y="138" key="FileChooserDialogImpl" timestamp="1603226365793">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-1462" y="709" key="FileChooserDialogImpl/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598731650902" />
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599235587763" />
+    <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1602926095444" />
     <state x="2470" y="-408" key="FileChooserDialogImpl/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626639613" />
+    <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603226365793" />
     <state x="458" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598988517025" />
-    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1601930145700">
+    <state width="1237" height="294" key="GridCell.Tab.0.bottom" timestamp="1603235630855">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.bottom/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
-    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
+    <state width="1237" height="225" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930787585" />
     <state width="1237" height="454" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
+    <state width="1237" height="294" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1603059051282" />
     <state width="1237" height="390" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1237" height="255" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1237" height="294" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603235630855" />
+    <state width="1237" height="294" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603129265957" />
     <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1601930145700">
+    <state width="1237" height="294" key="GridCell.Tab.0.center" timestamp="1603235630855">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.center/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
-    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
+    <state width="1237" height="225" key="GridCell.Tab.0.center/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930787585" />
     <state width="1237" height="454" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.center/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
+    <state width="1237" height="294" key="GridCell.Tab.0.center/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1603059051282" />
     <state width="1237" height="390" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1237" height="255" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1237" height="294" key="GridCell.Tab.0.center/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603235630855" />
+    <state width="1237" height="294" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603129265957" />
     <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1601930145700">
+    <state width="1237" height="294" key="GridCell.Tab.0.left" timestamp="1603235630855">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.left/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034035" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715101" />
-    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
+    <state width="1237" height="225" key="GridCell.Tab.0.left/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930787585" />
     <state width="1237" height="454" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.left/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
+    <state width="1237" height="294" key="GridCell.Tab.0.left/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1603059051282" />
     <state width="1237" height="390" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607948" />
     <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1237" height="255" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1237" height="294" key="GridCell.Tab.0.left/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603235630855" />
+    <state width="1237" height="294" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603129265957" />
     <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
-    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1601930145700">
+    <state width="1237" height="294" key="GridCell.Tab.0.right" timestamp="1603235630855">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="293" key="GridCell.Tab.0.right/-1920.522.1280.653/0.0.1536.824@-1920.522.1280.653" timestamp="1601750461679" />
     <state width="1237" height="270" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@-1920.576.1280.653" timestamp="1598999034036" />
     <state width="1493" height="220" key="GridCell.Tab.0.right/-1920.576.1280.653/0.0.1536.824@0.0.1536.824" timestamp="1598913715102" />
-    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930145700" />
+    <state width="1237" height="225" key="GridCell.Tab.0.right/0.0.1280.680/1920.-522.1536.824@0.0.1280.680" timestamp="1601930787585" />
     <state width="1237" height="454" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1600640189482" />
     <state width="1493" height="347" key="GridCell.Tab.0.right/0.0.1280.680/1920.-523.1536.824@1920.-523.1536.824" timestamp="1600694523998" />
+    <state width="1237" height="294" key="GridCell.Tab.0.right/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1603059051282" />
     <state width="1237" height="390" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@0.0.1280.680" timestamp="1598723607949" />
     <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626739887" />
-    <state width="1237" height="255" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598988554830" />
+    <state width="1237" height="294" key="GridCell.Tab.0.right/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603235630855" />
+    <state width="1237" height="294" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603129265957" />
     <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598981060274" />
     <state width="1237" height="232" key="GridCell.Tab.1.bottom" timestamp="1601485398616">
       <screen x="0" y="0" width="1280" height="680" />
@@ -307,6 +339,14 @@
     </state>
     <state x="233" y="0" key="SettingsEditor/0.0.1280.680/1920.-523.1536.824@0.0.1280.680" timestamp="1599309960727" />
     <state x="2199" y="-518" key="SettingsEditor/0.0.1280.680/1920.-576.1536.824@1920.-576.1536.824" timestamp="1598626531424" />
+    <state x="459" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603116958380">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="459" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.-593.1536.824@0.0.1280.680" timestamp="1603116958380" />
+    <state x="0" y="0" width="585" height="680" key="find.popup" timestamp="1602174032086">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="585" height="680" key="find.popup/0.0.1280.680/1920.-541.1536.824@0.0.1280.680" timestamp="1602174032086" />
     <state x="-1617" y="521" width="672" height="679" key="search.everywhere.popup" timestamp="1601749003631">
       <screen x="-1920" y="522" width="1280" height="653" />
     </state>
