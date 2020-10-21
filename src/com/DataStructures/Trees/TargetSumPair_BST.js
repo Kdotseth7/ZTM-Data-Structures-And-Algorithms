@@ -44,8 +44,37 @@ class BinarySearchTree {
         }
     }
 
-    targetSumPair(node, target) {
+    //Use InOrder Traversal to find target sum pairs that too in increasing order
+    targetSumPair(root, node, target, list) {
+        if (!node)
+            return;
 
+        this.targetSumPair(root, node.left, target, list);
+
+        /*Check whether complement matches with any node value starting
+        from root(only if nodeVal < complement)
+        */
+        const complement = target - node.value;
+        if (node.value < complement) {
+            if (this.findPair(root, complement)) {
+                list.push([node.value, complement]);
+            }
+        }
+
+        this.targetSumPair(root, node.right, target, list);
+        return list;
+    }
+
+    findPair(node, complement) {
+        if (!node)
+            return false;
+        if (node.value > complement) {
+            return this.findPair(node.left, complement);
+        } else if (node.value < complement) {
+            return this.findPair(node.right, complement);
+        } else {
+            return true;
+        }
     }
 
 }
@@ -61,6 +90,6 @@ myBST.insert(30);
 myBST.insert(40);
 myBST.insert(60);
 myBST.insert(70);
-console.log(myBST.targetSumPair(myBST.root, 100));
+console.log(myBST.targetSumPair(myBST.root, myBST.root, 100, []));
 
 

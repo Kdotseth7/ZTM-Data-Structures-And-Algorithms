@@ -67,7 +67,6 @@ class BinarySearchTree {
             list.push(node.value);
             this.printInRange(node.right, lBound, uBound, list);
         }
-
         return list;
     }
 
