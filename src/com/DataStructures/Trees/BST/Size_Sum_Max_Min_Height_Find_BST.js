@@ -94,7 +94,6 @@ class BinarySearchTree {
     }
 
     height(node) {
-        debugger;
         // Return -1 is height in terms of edges else return 0 if height in terms of nodes
         if (!node)
             return -1;
