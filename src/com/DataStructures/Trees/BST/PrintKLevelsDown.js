@@ -1,4 +1,4 @@
-//Link: https://www.youtube.com/watch?v=NEJUsqEFOI4&list=PL-Jc9J83PIiGl_-iS5k7R7SZoZPt0Fab2&index=14
+//Link: https://www.youtube.com/watch?v=KvcfuGcdDMg&list=PL-Jc9J83PIiHYxUk8dSu2_G7MR1PaGXN4&index=23&ab_channel=Pepcoding
 
 class BSTNode {
 
@@ -14,6 +14,7 @@ class BinarySearchTree {
 
     constructor() {
         this.root = null;
+        this.list = [];
     }
 
     insert(value) {
@@ -44,37 +45,23 @@ class BinarySearchTree {
         }
     }
 
-    //Use InOrder Traversal to find target sum pairs that too in increasing order
-    targetSumPair(root, node, target, list) {
-        if (!node)
+    printKLevelsDown(node, level, k) {
+        if (!node || level > k)
             return;
-
-        this.targetSumPair(root, node.left, target, list);
-
-        /*Check whether complement matches with any node value starting
-        from root(only if nodeVal < complement)
-        */
-        const complement = target - node.value;
-        if (node.value < complement) {
-            if (this.findPair(root, complement)) {
-                list.push([node.value, complement]);
-            }
+        if (level === k) {
+            this.list.push(node.value);
         }
-
-        this.targetSumPair(root, node.right, target, list);
-        return list;
+        this.printKLevelsDown(node.left, level + 1, k);
+        this.printKLevelsDown(node.right, level + 1, k)
     }
 
-    findPair(node, complement) {
-        if (!node)
-            return false;
-        if (node.value > complement) {
-            return this.findPair(node.left, complement);
-        } else if (node.value < complement) {
-            return this.findPair(node.right, complement);
-        } else {
-            return true;
-        }
+    printKLevelsDown_Sumeet(node, k) {
+        if (!node || k < 0)
+            return;
+        if (k===0)
+            console.log(node.value);
+        this.printKLevelsDown_Sumeet(node.left, k-1);
+        this.printKLevelsDown_Sumeet(node.right, k-1);
     }
 
 }
@@ -90,6 +77,8 @@ myBST.insert(30);
 myBST.insert(40);
 myBST.insert(60);
 myBST.insert(70);
-console.log(myBST.targetSumPair(myBST.root, myBST.root, 100, []));
-
+myBST.insert(87);
+myBST.printKLevelsDown(myBST.root, 0, 2);
+console.log(myBST.list);
+console.log(myBST.printKLevelsDown_Sumeet(myBST.root, 2));
 
