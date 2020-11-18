@@ -21,7 +21,7 @@ class BSTPair {
 }
 
 
-class BST {
+class BinaryTree {
 
     constructor(value) {
         this.root = new Node(value);
@@ -55,13 +55,15 @@ class BST {
 
 }
 
-const myBST = new BST(50);
-myBST.root.left = new Node(25);
-myBST.root.left.left = new Node(12);
-myBST.root.left.right = new Node(37);
-myBST.root.left.right.left = new Node(30);
-myBST.root.right = new Node(75);
-myBST.root.right.left = new Node(62);
-myBST.root.right.left.right = new Node(70);
-myBST.root.right.right = new Node(87);
-console.log(myBST.isBST(myBST.root).isBST);
+const myBT = new BinaryTree(50);
+myBT.root.left = new Node(25);
+myBT.root.left.left = new Node(12);
+myBT.root.left.right = new Node(37);
+myBT.root.left.right.left = new Node(30);
+myBT.root.right = new Node(75);
+myBT.root.right.left = new Node(62);
+myBT.root.right.left.right = new Node(70);
+myBT.root.right.right = new Node(87);
+console.log(myBT.isBST(myBT.root).isBST);
+console.log(myBT.isBST(myBT.root).min);
+console.log(myBT.isBST(myBT.root).max);
