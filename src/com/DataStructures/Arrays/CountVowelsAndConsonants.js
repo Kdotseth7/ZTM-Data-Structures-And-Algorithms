@@ -7,7 +7,7 @@ const countVowelsAndConsonants = string => {
     const str = string.toLowerCase();
     let vCount = 0;
     let cCount = 0;
-    for (let i=0; i< length; i++) {
+    for (let i=0; i<length; i++) {
         if (!Number.isInteger(parseInt(str[i]))) {
             if (str[i] === 'a' || str[i] === 'e' || str[i] === 'i' || str[i] === 'o' || str[i] === 'u')
                 vCount++;

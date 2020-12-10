@@ -20,13 +20,16 @@ Output:
  * @return {number[][]}
  */
 const generatePascalsTriangle = function(numRows) {
-    if (!numRows) return [];
+    if (!numRows) 
+        return [];
     let pascalsTriangle = [[1]];
     for (let i=1; i<numRows; i++) {
         let row = [];
         for (let j=0; j<i+1; j++) {
-            if (j===0 || j===i) row.push(1);
-            else row.push(pascalsTriangle[i-1][j-1] + pascalsTriangle[i-1][j]);
+            if (j===0 || j===i) 
+                row.push(1);
+            else 
+                row.push(pascalsTriangle[i-1][j-1] + pascalsTriangle[i-1][j]);
         }
         pascalsTriangle.push(row);
     }

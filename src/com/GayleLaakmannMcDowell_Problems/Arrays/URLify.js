@@ -26,4 +26,4 @@ console.log(URLify("Mr John Smith", 13));
 console.log(URLify("Mr John Smith   ", 13));
 
 //TC: O(n)
-//SC: O(1)
+//SC: O(n)
