@@ -14,6 +14,8 @@ class BinarySearchTree {
 
     constructor() {
         this.root = null;
+        this.list = [];
+        this.opList = [];
     }
 
     insert(value) {
@@ -45,30 +47,27 @@ class BinarySearchTree {
     }
 
     //Utilizing InOrder(as it prints in increasing order) Traversal of a Tree
-    printInRange(node, lBound, uBound, list) {
-        debugger;
+    printInRange(node, lBound, uBound) {
         if (!node)
             return;
-        this.printInRange(node.left, lBound, uBound, list);
+        this.printInRange(node.left, lBound, uBound);
         if (lBound <= node.value && node.value <= uBound)
-            list.push(node.value);
-        this.printInRange(node.right, lBound, uBound, list);
-        return list;
+            this.list.push(node.value);
+        this.printInRange(node.right, lBound, uBound);
     }
 
-    printInRange_Optimized(node, lBound, uBound, list) {
+    printInRange_Optimized(node, lBound, uBound) {
         if (!node)
             return;
         if (node.value >= lBound && node.value >= uBound)
-            this.printInRange(node.left, lBound, uBound, list);
+            this.printInRange_Optimized(node.left, lBound, uBound);
         else if (node.value <= lBound && node.value <= uBound)
-            this.printInRange(node.right, lBound, uBound, list);
+            this.printInRange_Optimized(node.right, lBound, uBound);
         else {
-            this.printInRange(node.left, lBound, uBound, list);
-            list.push(node.value);
-            this.printInRange(node.right, lBound, uBound, list);
+            this.printInRange_Optimized(node.left, lBound, uBound);
+            this.opList.push(node.value);
+            this.printInRange_Optimized(node.right, lBound, uBound);
         }
-        return list;
     }
 
 }
@@ -79,11 +78,13 @@ myBST.insert(25);
 myBST.insert(75);
 myBST.insert(12);
 myBST.insert(37);
+myBST.insert(30);
+myBST.insert(40);
 myBST.insert(62);
 myBST.insert(87);
-myBST.insert(59);
-myBST.insert(77);
-console.log(myBST.printInRange(myBST.root, 25, 87, []));
-console.log(myBST.printInRange_Optimized(myBST.root, 25, 87, []));
-
-
+myBST.insert(60);
+myBST.insert(70);
+myBST.printInRange(myBST.root, 27, 72);
+console.log(myBST.list);
+myBST.printInRange_Optimized(myBST.root, 27, 72);
+console.log(myBST.opList);
