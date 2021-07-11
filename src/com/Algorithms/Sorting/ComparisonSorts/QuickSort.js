@@ -4,7 +4,7 @@ const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 //SC --> Best Case: O(log n) = height of the tree, Worst Case: O(n) if there is a function call for every element,i.e., n function calls in call stack
 //Link: https://www.youtube.com/watch?v=7h1s2SojIRw, https://www.youtube.com/watch?v=-qOVVRIZzao
 /*
-1. Uses divide and conquer technique, i.e., com.GayleLaakmannMcDowell_Problems.Recursion
+1. Uses divide and conquer technique, i.e., Recursion
 2. Most commonly used sorting algorithm
 3. To ensure worst case TC does'nt occur always use middle element as pivot
 */

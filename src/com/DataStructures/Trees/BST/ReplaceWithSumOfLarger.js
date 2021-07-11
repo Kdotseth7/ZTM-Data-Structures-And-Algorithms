@@ -48,12 +48,15 @@ class BinarySearchTree {
     replaceWithSumOfLarger(node) {
         if (!node)
             return;
+
         this.replaceWithSumOfLarger(node.right);
+        
         const oldValue = node.value;
         //Dump value of class level variable -> sum
         node.value = this.sum;
         //Update value of class level variable -> sum
         this.sum += oldValue;
+
         this.replaceWithSumOfLarger(node.left);
     }
 

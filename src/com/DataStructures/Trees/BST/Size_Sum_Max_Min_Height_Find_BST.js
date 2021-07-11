@@ -47,7 +47,6 @@ class BinarySearchTree {
     }
 
     size(node) {
-        debugger;
         if (!node)
             return;
         this.size(node.left);

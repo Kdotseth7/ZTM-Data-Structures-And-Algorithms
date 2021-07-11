@@ -104,6 +104,8 @@ class BinaryTree {
             return true;
         }
 
+        
+
         const foundInLeftChild = this.nodeToRootPath(node.left, val);
         if (foundInLeftChild) {
             this.n2rPath.push(node);

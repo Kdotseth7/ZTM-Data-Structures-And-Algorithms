@@ -55,7 +55,7 @@ class BinarySearchTree {
         from root(only if nodeVal < complement)
         */
         const complement = target - node.value;
-        if (node.value < complement) {
+        if (node.value < complement) { //Basically this ensures that we don't print the duplicates like : 25 75 and also 75 25. To test this, you can remove this condition and run the code again and see the output.
             if (this.findPair(root, complement)) {
                 list.push([node.value, complement]);
             }

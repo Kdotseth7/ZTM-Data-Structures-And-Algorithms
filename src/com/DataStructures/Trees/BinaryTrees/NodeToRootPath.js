@@ -91,7 +91,7 @@ class BinaryTree {
         g.right = o;
         this.root = ten;
 
-        this.list = [];
+        this.n2rPath = [];
     }
 
     //Will travel only half euler

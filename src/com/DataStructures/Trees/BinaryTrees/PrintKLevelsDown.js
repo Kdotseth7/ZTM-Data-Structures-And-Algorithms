@@ -52,7 +52,7 @@ class BinarySearchTree {
             this.list.push(node.value);
         }
         this.printKLevelsDown(node.left, level + 1, k);
-        this.printKLevelsDown(node.right, level + 1, k)
+        this.printKLevelsDown(node.right, level + 1, k);
     }
 
     printKLevelsDown_Sumeet(node, k) {
